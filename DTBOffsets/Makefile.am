@@ -9,4 +9,5 @@ dtboffsets_CFLAGS = $(AM_CFLAGS)
 dtboffsets_CXXFLAGS = $(AM_CXXFLAGS)
 dtboffsets_LDFLAGS = $(AM_LDFLAGS)
 dtboffsets_SOURCES = 	main.cpp \
-                      DTBOffsets.cpp
+                      DTBOffsets.cpp \
+                      GenShellcode.cpp

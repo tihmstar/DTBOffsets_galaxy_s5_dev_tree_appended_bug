@@ -15,6 +15,7 @@
 		87372DCB2DE7AF2400C29453 /* libinsn.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 87372DC92DE7AF2400C29453 /* libinsn.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		87372DD62DE7B1C000C29453 /* DTBOffsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87372DD32DE7B1C000C29453 /* DTBOffsets.cpp */; };
 		87372DD72DE7B1C000C29453 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87372DD42DE7B1C000C29453 /* main.cpp */; };
+		87BAD32F2DE8B0D6005B8B63 /* GenShellcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87BAD32E2DE8B0D6005B8B63 /* GenShellcode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		87372DD22DE7B1C000C29453 /* DTBOffsets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DTBOffsets.hpp; sourceTree = "<group>"; };
 		87372DD32DE7B1C000C29453 /* DTBOffsets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DTBOffsets.cpp; sourceTree = "<group>"; };
 		87372DD42DE7B1C000C29453 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		87BAD32D2DE8B0D6005B8B63 /* GenShellcode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenShellcode.hpp; sourceTree = "<group>"; };
+		87BAD32E2DE8B0D6005B8B63 /* GenShellcode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenShellcode.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			children = (
 				87372DD22DE7B1C000C29453 /* DTBOffsets.hpp */,
 				87372DD32DE7B1C000C29453 /* DTBOffsets.cpp */,
+				87BAD32D2DE8B0D6005B8B63 /* GenShellcode.hpp */,
+				87BAD32E2DE8B0D6005B8B63 /* GenShellcode.cpp */,
 				87372DD42DE7B1C000C29453 /* main.cpp */,
 			);
 			path = DTBOffsets;
@@ -166,6 +171,7 @@
 			files = (
 				87372DD62DE7B1C000C29453 /* DTBOffsets.cpp in Sources */,
 				87372DD72DE7B1C000C29453 /* main.cpp in Sources */,
+				87BAD32F2DE8B0D6005B8B63 /* GenShellcode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

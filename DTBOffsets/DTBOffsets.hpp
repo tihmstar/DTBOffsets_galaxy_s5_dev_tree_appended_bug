@@ -22,7 +22,7 @@ public:
     loc_t find_recovery_boot();
     loc_t find_developer_flag_addr();
     loc_t find_recovery_flag_addr();
-
+    loc_t find_nop_target();
 };
 
 #endif /* DTBOffsets_hpp */

@@ -111,3 +111,21 @@ DTBOffsets::loc_t DTBOffsets::find_recovery_flag_addr(){
 
     return _vmemArm->deref(ldrliter);
 }
+
+DTBOffsets::loc_t DTBOffsets::find_nop_target(){
+    loc_t str = findstr("boot image size", false);
+    debug("str=0x%08x",str);
+    
+    loc_t ref = find_literal_ref_arm(str);
+    debug("ref=0x%08x",ref);
+    
+    auto iter = _vmemArm->getIter(ref);
+    
+    while (++iter != arm32::bl)
+        ;
+    
+    while (++iter != arm32::bl)
+        ;
+    
+    return iter;
+}
